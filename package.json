@@ -4,7 +4,7 @@
   "dependencies": {},
   "devDependencies": {
     "gulp": "*",
-    "nunjucks": "*",
-    "gulp-nunjucks-render": "*"
+    "gulp-nunjucks-render": "*",
+    "nunjucks": "*"
   }
 }
