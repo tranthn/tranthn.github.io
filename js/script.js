@@ -17,11 +17,4 @@
   $('.bs-component [data-toggle="popover"]').popover();
   $('.bs-component [data-toggle="tooltip"]').tooltip();
 
-  $(".bs-component").hover(function(){
-    $(this).append($button);
-    $button.show();
-  }, function(){
-    $button.hide();
-  });
-
 })();

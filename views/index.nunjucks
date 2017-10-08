@@ -51,52 +51,21 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="page-header">
-              <h2 id="#immune-system-review">1: Immune System Basics</h2>
+              <h3 id="#immune-system-review">1: Immune System Basics</h3>
             </div>
-
-            <div class="bs-component">
-              <p>Immune system comprises 2 main sub-systems: innate and apative.</p>
-              <p><strong>Innate</strong>: First line of defense, this system is always active and targets groups of pathogens.</p>
-              <p><strong>Adaptive</strong>: The system with high specificity for foreign antigens, can adapt based on antigens recognized.</p>
-            </div>
-
-            <div class="bs-component">
-              <table class="table table-striped table-hover">
-                <thead>
-                  <tr>
-                    <th>Term</th>
-                    <th>Definition</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr class="success">
-                    <td>T cell</td>
-                    <td>Type of lymphocyte that is matured in <u><strong>t</strong></u>hymus</td>
-                  </tr>
-                </tbody>
-              </table> 
-            </div><!-- /example -->
           </div>
         </div>
       </div>
 
-
       <!-- FOOTER STUFF -->
       <!-- ================================================== -->
       <hr>
-      <footer>
-        <div class="row">
-          <div class="col-lg-12">
-            <p>Theme made by <a href="http://thomaspark.co" rel="nofollow">Thomas Park</a> at <a href="https://github.com/thomaspark/bootswatch/">GitHub</a>. Code released under the <a href="https://github.com/thomaspark/bootswatch/blob/gh-pages/LICENSE">MIT License</a>.</p>
-            <p>Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
-          </div>
-        </div>
-      </footer>
+      {% include "footer.html" %}
 
     </div>
 
-    <script src="./jquery.js"></script>
-    <script src="./bootstrap.min.js"></script>
-    <script src="./script.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
