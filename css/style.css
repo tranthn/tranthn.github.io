@@ -2,13 +2,11 @@
 	padding-top: 10px;
 }
 
-
 /* NAV */
 /*===============*/
 .sidebar {
 	padding-top: 32px;
 }
-
 
 @media (min-width: 768px) {
     .sidebar {
@@ -21,64 +19,21 @@
     margin-bottom: 20px
 }
 
-.sidebar .nav>li>a {
+.sidebar .nav > li > a {
     display: block;
     padding: 4px 20px;
     font-size: 13px;
     font-weight: 500;
-    color: #767676
+    color: #767676;
+    border-left: 1px solid white
 }
 
-.sidebar .nav>li>a:focus,.sidebar .nav>li>a:hover {
-    padding-left: 19px;
+.sidebar .nav > li > a:focus,
+.sidebar .nav > li > a:hover,
+.sidebar .nav > li > a:active {
     color: #4caf50;
-    text-decoration: none;
     background-color: transparent;
     border-left: 1px solid #4caf50
 }
 
-.sidebar .nav>.active:focus>a,.sidebar .nav>.active:hover>a,.sidebar .nav>.active>a {
-    padding-left: 18px;
-    font-weight: 700;
-    color: #4caf50;
-    background-color: transparent;
-    border-left: 2px solid #4caf50
-}
-
-.sidebar .nav .nav {
-    display: none;
-    padding-bottom: 10px
-}
-
-.sidebar .nav .nav>li>a {
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 30px;
-    font-size: 12px;
-    font-weight: 400
-}
-
-.sidebar .nav .nav>li>a:focus,.sidebar .nav .nav>li>a:hover {
-    padding-left: 29px
-}
-
-.sidebar .nav .nav>.active:focus>a,.sidebar .nav .nav>.active:hover>a,.sidebar .nav .nav>.active>a {
-    padding-left: 28px;
-    font-weight: 500
-}
-
-.back-to-top,.theme-toggle {
-    display: none;
-    padding: 4px 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-    font-size: 12px;
-    font-weight: 500;
-    color: #999
-}
-
-.back-to-top:hover,.theme-toggle:hover {
-    color: #4caf50;
-    text-decoration: none
-}
 /*===============*/

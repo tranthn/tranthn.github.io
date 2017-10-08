@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/style.css" media="screen">
   </head>
   <body>
-    {% include "_header.html" %}
+    {% include "0_header.html" %}
     
     
     <div id="content" class="container">
@@ -74,7 +74,7 @@
     <!-- FOOTER -->
     <!-- ================================================== -->
     <hr>
-    {% include "_footer.html" %}
+    {% include "0_footer.html" %}
 
     <!-- SCRIPTS -->
     <!-- ================================================== -->
