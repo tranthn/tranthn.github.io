@@ -39,19 +39,19 @@
       <div class="page-header pad-top" id="banner">
         <div class="row">
           <div class="col-lg-12">
-            <h2>Immune System, Autoimmunity, and Cancer</h2>
+            <h1>Immune System, Autoimmunity, and Cancer</h1>
             <p class="lead">Blah blah summary</p>
           </div>
         </div>
       </div>
 
-      <!-- Tables
+      <!-- Immune System Basics
       ================================================== -->
       <div id="#immune-system-review">
         <div class="row">
           <div class="col-lg-12">
             <div class="page-header">
-              <h3>1: Immune System Basics</h3>
+              <h2>Immune System Basics</h2>
             </div>
             <div>
               {% include "immune-basics.html" %}
@@ -60,10 +60,26 @@
         </div>
       </div>
 
+      <!-- Common Environment Factors
+      ================================================== -->
+      <div id="common-env">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h2>Environment</h2>
+            </div>
+
+            <div>
+              {% include "common-environment.html"  %}
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- FOOTER STUFF -->
       <!-- ================================================== -->
       <hr>
-      {% include "footer.html" %}
+      {% include "_footer.html" %}
 
     </div>
 
