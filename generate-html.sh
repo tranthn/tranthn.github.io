@@ -2,7 +2,7 @@
 pushd md-notes > /dev/null
 
 for file in *md; do
-	markdown $file > ../views/${file%.*}.html
+	markdown $file > ../views/raw/${file%.*}.html
 done
 
 popd > /dev/null
