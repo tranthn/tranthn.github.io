@@ -5,6 +5,7 @@
   "devDependencies": {
     "gulp": "*",
     "gulp-nunjucks-render": "*",
+    "gulp-watch": "^4.3.11",
     "nunjucks": "*"
   }
 }
