@@ -2,13 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bio - Individual Project</title>
+    <title>Autoimmunity and Cancer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="./css/bootstrap.css" media="screen">
-    <link rel="stylesheet" href="./css/style.css" media="screen">
+    <link rel="stylesheet" href="./assets/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="./assets/style.css" media="screen">
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#right-nav" data-offset="25">
   
     <!-- HEADER -->
     <!-- ================================================== -->
@@ -23,6 +23,8 @@
             <div class="row">
               <div class="col-lg-12">
                 <h1>Autoimmunity and Cancer</h1>
+                <p>Course: Molecular Biology - 410.602 (Fall 2017</p>
+                <p>By: Thien-Huong (Emily) Tran</p>
               </div>
             </div>
           </div>
@@ -49,6 +51,5 @@
     <!-- ================================================== -->
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/script.js"></script>
   </body>
 </html>

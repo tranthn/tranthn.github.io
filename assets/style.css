@@ -1,20 +1,29 @@
 body {
     font-size: 12pt;
     line-height: 1.7;
+    position: relative;
 }
 
 hr {
     border-top: 2px solid #eeeeee;
 }
 
+h2:before {
+    display: block;
+    content: " ";
+    margin-top: -64px;
+    height: 64px;
+    visibility: hidden;
+}
+
 .pad-top {
-	padding-top: 5px;
+    padding-top: 5px;
 }
 
 /* NAV */
 /*===============*/
 .sidebar {
-	padding-top: 32px;
+    padding-top: 32px;
 }
 
 @media (min-width: 768px) {
@@ -44,7 +53,9 @@ hr {
 
 .sidebar .nav li > a:focus,
 .sidebar .nav li > a:hover,
-.sidebar .nav li > a:active {
+.sidebar .nav li > a:active,
+.sidebar li.active,
+.sidebar li.active > a {
     color: #4caf50;
     background-color: transparent;
     border-left: 1px solid #4caf50
