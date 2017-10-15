@@ -1,5 +1,10 @@
+body {
+    font-size: 13pt;
+    line-height: 1.7;
+}
+
 .pad-top {
-	padding-top: 10px;
+	padding-top: 5px;
 }
 
 /* NAV */
@@ -19,21 +24,33 @@
     margin-bottom: 20px
 }
 
-.sidebar .nav > li > a {
+.sidenav li {
+    list-style-type: none;
+}
+
+.sidebar .nav li a {
     display: block;
     padding: 4px 20px;
     font-size: 13px;
     font-weight: 500;
     color: #767676;
-    border-left: 1px solid white
+    border-left: 1px solid white;
+    text-decoration: none;
 }
 
-.sidebar .nav > li > a:focus,
-.sidebar .nav > li > a:hover,
-.sidebar .nav > li > a:active {
+.sidebar .nav li > a:focus,
+.sidebar .nav li > a:hover,
+.sidebar .nav li > a:active {
     color: #4caf50;
     background-color: transparent;
     border-left: 1px solid #4caf50
+}
+
+#back-to-top {
+    color: #767676;
+    background-color: transparent;
+    border-top: 1px solid #dedede;
+    border-left: 1px solid white
 }
 
 /*===============*/

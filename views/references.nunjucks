@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bio - Individual Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="./css/style.css" media="screen">
+  </head>
+  <body>
+  
+    <div class="container pad-top">
+      <div class="page-header pad-top">
+        <!-- HEADER -->
+        <!-- ================================================== -->
+        {% include "header.html" %}
+        
+        <!-- REFERENCES -->
+        <!-- ================================================== -->
+        {% include "refs.html" %}</div>
+      </div>
+  </body>
+</html>

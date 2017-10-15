@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Bio - Individual Project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="./css/bootstrap.css" media="screen">
@@ -12,7 +12,7 @@
   
     <!-- HEADER -->
     <!-- ================================================== -->
-    {% include "layout/header.html" %}
+    {% include "header.html" %}
 
     <!-- CONTENT -->
     <!-- ================================================== -->
@@ -36,14 +36,14 @@
 
       <!-- NAV -->
       <!-- ================================================== -->
-      <div class="col-lg-2">{% include "layout/nav.html" %}</div>
+      <div class="col-lg-2">{% include "nav.html" %}</div>
       </div>
     </div>
 
     <!-- FOOTER -->
     <!-- ================================================== -->
     <hr>
-    {% include "layout/footer.html" %}
+    {% include "footer.html" %}
 
     <!-- SCRIPTS -->
     <!-- ================================================== -->
